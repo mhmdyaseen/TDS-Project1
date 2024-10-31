@@ -17,5 +17,5 @@ most_common_company = company_counts.most_common(1)
 
 try:
     print(most_common_company[0][0])
-except:
+except IndexError:
     print("No company data found.")
