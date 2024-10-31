@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-token =  #GitHub API Token
+token =  #Your GitHub API Token
 headers = {'Authorization': f'token {token}'}
 
 def save_users_to_csv(filename='users.csv'): # Function to save user data to CSV
